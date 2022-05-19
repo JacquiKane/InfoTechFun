@@ -766,7 +766,7 @@
     </div>
 
 
-    <!-- BUILDING BLOCKS -->
+    <!-- numbers 101 -->
     <div class="modal" id="numbers101" tabindex=-1 aria-labelledby="buildingLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
             <div class="modal-content">
@@ -822,9 +822,10 @@
                                 <p>To convert a binary number to the equivalent decimal number, you use the base,
                                     which is 2, and multiply each digit by the base raised to the power of the
                                     digit's place position. Click to see an example
-                                    <button type="button" class="btn btn-info" id="binnumbutton"
-                                        data-bs-toggle="popover" title="Binary to decimal" data-trigger="hover focus"
-                                        html="true">here</button>.
+                                    <a tabindex="0"  role ="button" class="btn btn-info" id="binnumbutton"
+                                        data-bs-toggle="popover" title="Binary to decimal" data-bs-trigger="focus"
+                                        html="true">here</a>.
+                                     
                                 </p>
 
                                 <div id="binnum" style="display: none">
@@ -851,9 +852,9 @@
                                     is a prefix for a hexadecimal number, like 0x1B7A. It takes 4 bits to represent
                                     a hexadecimal digit in binary.</p>
                                 <p>Want to review the hexadecimal chart? Click
-                                    <button type="button" class="btn btn-info" id="hexchartbutton"
+                                    <a tabindex="0" role="button" class="btn btn-info" id="hexchartbutton"
                                         data-bs-toggle="popover" data-placement="right" title="Hexadecimal chart"
-                                        data-trigger="hover focus" html="true">here</button>
+                                        data-bs-trigger="focus" html="true">here</a>
                                 </p>
                                 </p>
                                 <p>0x2D5C? 2 is 0010, D is 1101, 5 is 0101, C is 1100, so 0x2D5C is
@@ -1069,7 +1070,7 @@
                                     is decimal 65, 10000001<sub>2</sub>.</p>
                                 <p>
 
-                                    <button type="button" class="btn btn-info" id="asciichartbutton" data-toggle="popover" title="Charts Translate" data-trigger="hover" html="true"><img class="visibilitymatters" src="images\ascii.png"> </button>  </p>
+                                    <a tabindex="0" role="button" class="btn btn-info" id="asciichartbutton" data-toggle="popover" title="Charts Translate" data-bs-trigger="hover focus" html="true"><img class="visibilitymatters" src="images\ascii.png"> </a>  </p>
                                 </div>
                             </td>
                         </tr>
@@ -1156,7 +1157,7 @@
                         </td>
                         <td><i class="material-icons custom">question_answer</i>
                             <p>Data is encoded digitally as pulses of electricity, which we represent as binary 1s and 0s. Data can take up a lot of space.
-                                <button type="button" class="btn btn-info" id="spacebutton" data-toggle="popover" title="Digital units of measurement" data-trigger="hover" html="true">What's space?</button>.</p>
+                                <a tabindex="0"  role="button" class="btn btn-info" id="spacebutton" data-toggle="popover" title="Digital units of measurement" data-bs-trigger="hover focus" html="true">What's space?</a>.</p>
 
                             <p>
                                 Data compression is a general term for technology that encodes data in order to shrink that data. The data is stored in files. Smaller files take up less room, leaving more storage real-estate. Also, smaller files are faster to transfer over a network,
@@ -1271,7 +1272,7 @@
     <script>
         $(document).ready(function() {
             $('#spacebutton').popover({
-                html: true,
+                html: true, trigger: 'focus',
                 content: function() {
                     return $('#spaceinfo').html();
                 }
@@ -1281,7 +1282,7 @@
     <script>
         $(document).ready(function() {
             $('#asciichartbutton').popover({
-                html: true,
+                html: true, trigger: 'focus',
                 content: function() {
                     return $('#asciichart').html();
                 }
@@ -1364,7 +1365,7 @@
     <script>
         $(document).ready(function () {
             $('#hexchartbutton').popover({
-                html: true,
+                html: true, trigger: 'focus',
                 content: function () {
                     return $('#hexchart').html();
                 }
@@ -1376,7 +1377,7 @@
     <script>
         $(document).ready(function () {
             $('#binnumbutton').popover({
-                html: true,
+                html: true, trigger: 'focus',
                 content: function () {
                     return $('#binnum').html();
                 }
