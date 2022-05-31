@@ -12,12 +12,8 @@
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>CIT 11200, Info Tech Fundamentals - Numbers</title>
+    <title>CIT 11200, Info Tech Fundamentals Vocabulary</title>
     <style>
-        .visibilityreallymatters {
-            width: 200px;
-            height: 200px;
-        }
         .imgUnit {
             width: 80%;
             height: auto;
@@ -193,7 +189,6 @@
             height: auto;
         }
     </style>
-    <link rel="stylesheet" href="112styles.css">
 </head>
 
 <body data-spy="scroll" data-target=".site-nav" data-offset="55">
@@ -205,10 +200,10 @@
             <div class="container-fluid">
 
 
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav"
+                <a tabindex="0"  role="button" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav"
                     aria-controls="#myTogglerNav" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </a>
 
 
             </div>
@@ -219,7 +214,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-11 col-sm-10 col-md-8 animated fadeInUp">
-                        <h3 class="page-section-title">Computing Numbers</h3>
+                        <h3 class="page-section-title">Networks</h3>
                     </div>
                 </div>
             </div>
@@ -235,32 +230,20 @@
 
             <div class="row justify-content-center family-sans text-uppercase">
 
-                <section class="col-12 col-sm-6  col-md-4 col-lg-2 col-xl-2">
-                    <a data-toggle="modal" data-target="#numbers101" data-highres="vocab1.png" href="#">
-                        <img class="layout-image imgUnit" src="images\1vocab.png" alt="101">
+                <section class="mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
+
+                    <a data-toggle="modal" data-target="#vocabverifier" data-highres="vocab1.png" href="#">
+                        <img class="layout-image imgUnit" src="images\1vocab.png" alt="Vocab Verifier">
+
                     </a>
-                    <h5 class="layout-title pt-2"><em>101</em></h5>
+                    <h5 class="layout-title pt-2">Net<em>words</em></h5>
                 </section>
 
-                <section class="col-12 col-sm-6  col-md-4 col-lg-2 col-xl-2">
-                    <a data-toggle="modal" data-target="#datarep" data-highres="vocab1.png" href="#">
-                        <img class="layout-image imgUnit" src="images\1vocab.png" alt="Data">
-                    </a>
-                    <h5 class="layout-title pt-2"><em>Data</em></h5>
-                </section>
-
-                <section class="col-12 col-sm-6  col-md-4 col-lg-2 col-xl-2">
-                    <a data-toggle="modal" data-target="#datacompression" data-highres="vocab1.png" href="#">
-                        <img class="layout-image imgUnit" src="images\1vocab.png" alt="Compression">
-                    </a>
-                    <h5 class="layout-title pt-2"><em>Compression</em></h5>
-                </section>
-
-                <section class="col-12 col-sm-6  col-md-4 col-lg-2 col-xl-2">
-                    <a data-toggle="modal" data-target="#useincareer" data-highres="images/building.png" href="#">
+                <section class="mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
+                    <a data-toggle="modal" data-target="#buildingblocks" data-highres="images/building.png" href="#">
                         <img class="layout-image imgUnit" src="images/building.png" alt="Building Blocks">
                     </a>
-                    <h5 class="layout-title pt-2">#Numbers, Jobs</h5>
+                    <h5 class="layout-title pt-2">Building Blocks</h5>
                 </section>
 
             </div>
@@ -292,9 +275,9 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="vocabModalLabel1">Net Words</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <a tabindex="0"  role="button" type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
+                    </a>
                 </div>
                 <div class="modal-body">
                     <table class="tablequestion question-table">
@@ -323,24 +306,24 @@
                                     communicate with each other. In other words, the network configuration.
                                     Topology can take the form of
 
-                                    <button type="button" data-placement="top" class="btn btn-info"
+                                    <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                         id="startopologypopup" data-bs-toggle="popover" data-bs-trigger="hover focus"
-                                        title="Star Topology" html="true">Star Topology</button>,
-                                    <button type="button" data-placement="top" class="btn btn-info"
+                                        title="Star Topology" html="true">Star Topology</a>,
+                                    <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                         id="bustopologypopup" data-bs-toggle="popover" data-bs-trigger="hover focus"
-                                        title="Bus Topology" html="true">Bus Topology</button>,
-                                    <button type="button" data-placement="top" class="btn btn-info"
+                                        title="Bus Topology" html="true">Bus Topology</a>,
+                                    <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                         id="meshtopologypopup" data-bs-toggle="popover" data-bs-trigger="hover focus"
-                                        title="Mesh Topology" html="true">Mesh Topology</button>,
-                                    <button type="button" data-placement="top" class="btn btn-info"
+                                        title="Mesh Topology" html="true">Mesh Topology</a>,
+                                    <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                         id="point2pointtopologypopup" data-bs-toggle="popover"
                                         data-bs-trigger="hover focus" title="Point-to-Point Topology"
-                                        html="true">Point-to-Point Topology</button>.
+                                        html="true">Point-to-Point Topology</a>.
                                     <p>A Personal Area Network or PAN, connects devices within a range of about 30 feet.
                                     </p>
-                                    <p>A <button type="button" data-placement="top" class="btn btn-info" id="lanpopup"
+                                    <p>A <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="lanpopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="LAN"
-                                            html="true"><span class="oomph">LAN</span></button>
+                                            html="true"><span class="oomph">LAN</span></a>
                                         extends that capacity, and are typically centered around a router for security
                                         and internet access.</p>
                                     <p>The IoT connects multiple
@@ -349,19 +332,19 @@
                                         a camera inside a refrigerator.
                                         Lower power consumption is necessary and made
                                         possible by technologies
-                                        <button type="button" data-placement="top" class="btn btn-info"
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                             id="bluetoothsmartpopup" data-bs-toggle="popover"
                                             data-bs-trigger="hover focus" title="Bluetooth Smart" html="true">
-                                            <span class="oomph">Bluetooth Smart</span></button>,
-                                        <button type="button" data-placement="top" class="btn btn-info" id="zigbeepopup"
+                                            <span class="oomph">Bluetooth Smart</span></a>,
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="zigbeepopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="ZigBee"
                                             html="true">
-                                            <span class="oomph">ZigBee</span></button>, and
+                                            <span class="oomph">ZigBee</span></a>, and
 
-                                        <button type="button" data-placement="top" class="btn btn-info" id="zwavepopup"
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="zwavepopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="Z-Wave"
                                             html="true">
-                                            <span class="oomph">Z-Wave</span></button>
+                                            <span class="oomph">Z-Wave</span></a>
 
 
                                     </p>
@@ -390,18 +373,18 @@
                                     <p>
                                         Information is broken up into small units
                                         called
-                                        <button type="button" data-placement="top" class="btn btn-info" id="packetpopup"
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="packetpopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="Packets"
                                             html="true">
-                                            <span class="oomph">packets</span></button>
+                                            <span class="oomph">packets</span></a>
                                         , which are then sent out on the
                                         lines of the internet following a <span class="oomph">
 
-                                            <button type="button" data-placement="top" class="btn btn-info"
+                                            <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                                 id="packetswitchingpopup" data-bs-toggle="popover"
                                                 data-bs-trigger="hover focus" title="Packet Switching"
                                                 html="true">packet-switching
-                                                strategy</span></button>
+                                                strategy</span></a>
                                     </p>.
                                     <p><span class="oomph">Packet loss</span> happens when a packet fails to arrive at
                                         the destination, and
@@ -459,38 +442,38 @@
                                             protocol stack.</p>
                                         <p>Internet Protocol, IP, with TCP (TCP/IP) is part of the internet protocol
                                             suite.
-                                            IP defines 2 types of internet address, <button type="button"
+                                            IP defines 2 types of internet address, <a tabindex="0"  role="button" type="button"
                                                 class="btn btn-info" data-placement="top" id="ipv4popup"
                                                 data-bs-toggle="popover" data-bs-trigger="hover focus" title="IPV4"
                                                 html="true">
-                                                <span class="oomph">IPV4</span></button> and <button type="button"
+                                                <span class="oomph">IPV4</span></a> and <a tabindex="0"  role="button" type="button"
                                                 class="btn btn-info" data-placement="top" id="ipv6popup"
                                                 data-bs-toggle="popover" data-bs-trigger="hover focus" title="IPV6"
                                                 html="true">
-                                                <span class="oomph">IPV6</span></button> </p>
-                                        <p> <button type="button" data-placement="top" class="btn btn-info"
+                                                <span class="oomph">IPV6</span></a> </p>
+                                        <p> <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                                 id="tcppopup" data-bs-toggle="popover" data-bs-trigger="hover focus"
                                                 title="TCP" html="true">
                                                 <span class="oomph">
-                                                    TCP/IP</span></button>
+                                                    TCP/IP</span></a>
                                             is one of the core
-                                            internet protocols. <button type="button" data-placement="top"
+                                            internet protocols. <a tabindex="0"  role="button" type="button" data-placement="top"
                                                 class="btn btn-info" id="udppopup" data-bs-toggle="popover"
                                                 data-bs-trigger="hover focus" title="UDP" html="true">
-                                                <span class="oomph">UDP</span></button> is an alternative to TCP.</p>
+                                                <span class="oomph">UDP</span></a> is an alternative to TCP.</p>
                                         <p></p>
                                         <p><span class="oomph">DHCP</span>, Dynamic Host Configuration Protocol, is a
                                             protocol that assigns IP addresses.</p>
-                                        <p> <button type="button" data-placement="top" class="btn btn-info"
+                                        <p> <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                                 id="ethernetpopup" data-bs-toggle="popover"
                                                 data-bs-trigger="hover focus" title="Ethernet" html="true">
-                                                <span class="oomph">IEEE 802.3</span></button>, outlines standards for
+                                                <span class="oomph">IEEE 802.3</span></a>, outlines standards for
                                             ethernet cabling, and the speeds at which data is transmitted.</p>
 
-                                        <p> <button type="button" data-placement="top" class="btn btn-info"
+                                        <p> <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                                 id="wifipopup" data-bs-toggle="popover" data-bs-trigger="hover focus"
                                                 title="Wi-Fi" html="true">
-                                                <span class="oomph">IEEE 802.11</span></button>, outlines
+                                                <span class="oomph">IEEE 802.11</span></a>, outlines
                                             standards for
                                             wireless communication.</p>
 
@@ -619,11 +602,11 @@
                                         Communications Equiptment (DCE). DTEs are devices that generate or store data -
                                         like a laptop. DCEs are devices that control the speed of transmission, convert
                                         signals - like routers and modems.</p>
-                                    <p><button type="button" data-placement="top" class="btn btn-info" id="nicpopup"
+                                    <p><a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="nicpopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus"
                                             title="Network Interface Controller" html="true"><span
-                                                class="oomph">NICs</span></button>are used to access a
-                                        network. NICs have a <button type="button" data-placement="top"
+                                                class="oomph">NICs</span></a>are used to access a
+                                        network. NICs have a <a tabindex="0"  role="button" type="button" data-placement="top"
                                             class="btn btn-info" id="macpopup" data-bs-toggle="popover"
                                             data-bs-trigger="hover focus" title="Mac Address" html="true"><span
                                                 class="oomph">MAC address
@@ -646,22 +629,22 @@
                                 </td>
                                 <td>
                                     <i class="material-icons custom">question_answer</i>
-                                    <button type="button" data-placement="top" class="btn btn-info" id="catvpopup"
+                                    <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="catvpopup"
                                         data-bs-toggle="popover" data-bs-trigger="hover focus" title="CATV" html="true">
                                         <span class="oomph">
-                                            Cable Internet Service</span></button> is offered to subscribers by cable TV
+                                            Cable Internet Service</span></a> is offered to subscribers by cable TV
                                     companies.
-                                    <p><button type="button" data-placement="top" class="btn btn-info" id="ftthpopup"
+                                    <p><a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="ftthpopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="FTTH"
-                                            html="true"><span class="oomph">FTTH</span></button> supports high speed
+                                            html="true"><span class="oomph">FTTH</span></a> supports high speed
                                         internet.</p>
 
-                                    <p><button type="button" data-placement="top" class="btn btn-info"
+                                    <p><a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                             id="satellitepopup" data-bs-toggle="popover" data-bs-trigger="hover focus"
                                             title="Satellite Internet Service" html="true"><span class="oomph">Satellite
                                                 Internet Service
 
-                                            </span></button> is typically used in areas without land lines.</p>
+                                            </span></a> is typically used in areas without land lines.</p>
 
 
                                     <p>
@@ -670,21 +653,21 @@
                                         which is far below broadband speed classification. Dial-up transmits data as
                                         analog signals.
                                         Still using the phone lines, but using packet switching,
-                                        <button type="button" data-placement="top" class="btn btn-info" id="isdnpopup"
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="isdnpopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="ISDN"
                                             html="true"><span class="oomph">ISDN</span>
-                                        </button> is slower and less popular than
-                                        <button type="button" data-placement="top" class="btn btn-info" id="dslpopup"
+                                        </a> is slower and less popular than
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="dslpopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="DSL"
-                                            html="true"><span class="oomph">DSL</span></button>
+                                            html="true"><span class="oomph">DSL</span></a>
                                     </p>
                                     <p>
                                         Formany people who do not have other devices,
-                                        <button type="button" data-placement="top" class="btn btn-info"
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                             id="mobilebroadbandpopup" data-bs-toggle="popover"
                                             data-bs-trigger="hover focus" title="Mobile Broadband Service" html="true">
                                             <span class="oomph">Mobile
-                                                Broadband Service</span></button>
+                                                Broadband Service</span></a>
                                         delivers high speed
                                         digital data over cell phone systems.
                                     </p>
@@ -719,33 +702,33 @@
                                     <i class="material-icons custom">
                                         question_answer</i>
                                     <p>Wi-Fi is defined by the 802.11 standard.</p>
-                                    <p><button type="button" data-placement="top" class="btn btn-info"
+                                    <p><a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info"
                                             id="wifihotspotpopup" data-bs-toggle="popover" data-bs-trigger="hover focus"
                                             title="Wi-Fi Hotspot" html="true">
-                                            <span class="oomph">A Wi-Fi Hotspot</span></button> is a LAN
+                                            <span class="oomph">A Wi-Fi Hotspot</span></a> is a LAN
                                         with an access point that broadcasts Wi-Fi signals.</p>
                                     <p>Wi-Fi broadcasts signals through the air,
                                         so <span class="oomph">wireless encryption</span> is essential - this converts
                                         the data into an unrecognizable form. Wireless encryption protocols include
-                                        <button type="button" data-placement="top" class="btn btn-info" id="weppopup"
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="weppopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus"
                                             title="Wired Equivalent Privacy, WEP" html="true">
-                                            <span class="oomph">WEP</span></button>,
-                                        <button type="button" data-placement="top" class="btn btn-info" id="wpapopup"
+                                            <span class="oomph">WEP</span></a>,
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="wpapopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="WPA"
                                             html="true">
                                             <span class="oomph">WPA</span>
-                                        </button>,
+                                        </a>,
 
-                                        <button type="button" data-placement="top" class="btn btn-info" id="wpa2popup"
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="wpa2popup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus"
                                             title="Wi-Fi Protected Access, WPA2" html="true">
-                                            <span class="oomph">WPA2</span></button>,
+                                            <span class="oomph">WPA2</span></a>,
 
-                                        <button type="button" data-placement="top" class="btn btn-info" id="pskpopup"
+                                        <a tabindex="0"  role="button" type="button" data-placement="top" class="btn btn-info" id="pskpopup"
                                             data-bs-toggle="popover" data-bs-trigger="hover focus" title="PSK"
                                             html="true">
-                                            <span class="oomph">PSK</span></button>
+                                            <span class="oomph">PSK</span></a>
                                     </p>
                                 </td>
                             </tr>
@@ -758,7 +741,7 @@
                 </div>
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a tabindex="0"  role="button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</a>
                 </div>
 
             </div>
@@ -766,15 +749,15 @@
     </div>
 
 
-    <!-- numbers 101 -->
-    <div class="modal" id="numbers101" tabindex=-1 aria-labelledby="buildingLabel" aria-hidden="true">
+    <!-- BUILDING BLOCKS -->
+    <div class="modal" id="buildingblocks" tabindex=-1 aria-labelledby="buildingLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="buildingModalLabel1">Building Blocks</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <a tabindex="0"  role="button" type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
+                    </a>
                 </div>
                 <div class="modal-body">
                     <table class="tablequestion question-table">
@@ -822,10 +805,9 @@
                                 <p>To convert a binary number to the equivalent decimal number, you use the base,
                                     which is 2, and multiply each digit by the base raised to the power of the
                                     digit's place position. Click to see an example
-                                    <a tabindex="0"  role ="button" class="btn btn-info" id="binnumbutton"
-                                        data-bs-toggle="popover" title="Binary to decimal" data-bs-trigger="focus"
+                                    <a tabindex="0"  role="button" type="button" class="btn btn-info" id="binnumbutton"
+                                        data-bs-toggle="popover" title="Binary to decimal" data-trigger="hover focus"
                                         html="true">here</a>.
-                                     
                                 </p>
 
                                 <div id="binnum" style="display: none">
@@ -850,11 +832,11 @@
 
                                 <p>Octal is a term that represents base 8, and hexadecimal represents base 16. '0x'
                                     is a prefix for a hexadecimal number, like 0x1B7A. It takes 4 bits to represent
-                                    a hexadecimal digit in binary.</p>
+                                    a hexadecimal number in binary.</p>
                                 <p>Want to review the hexadecimal chart? Click
-                                    <a tabindex="0" role="button" class="btn btn-info" id="hexchartbutton"
+                                    <a tabindex="0"  role="button" type="button" class="btn btn-info" id="hexchartbutton"
                                         data-bs-toggle="popover" data-placement="right" title="Hexadecimal chart"
-                                        data-bs-trigger="focus" html="true">here</a>
+                                        data-trigger="hover focus" html="true">here</a>
                                 </p>
                                 </p>
                                 <p>0x2D5C? 2 is 0010, D is 1101, 5 is 0101, C is 1100, so 0x2D5C is
@@ -1039,231 +1021,9 @@
                 </div>
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!-- Data Representation -->
-    <!-- Modal 2 DATA REP -->
-    <div class="modal" id="datarep" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="dataLabel">Text & Images, Data Representation</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <table class="tablequestion question-table">
-                        <tr>
-                            <td><span class="quote">The goal is to turn data into information and information into
-                                        insight – Carly Fiorina</span><br>
-                            </td>
-                            <td><i class="material-icons custom">question_answer</i><br>
-                                <div style="display:flex;">
-                                <p> Characters in text are mapped to a binary representation so that they can be digitized and stored and recognized by a computer. The ASCII (American Standard Code for Information Interchange) chart is how this is done - the letter 'A'
-                                    is decimal 65, 10000001<sub>2</sub>.</p>
-                                <p>
-
-                                    <a tabindex="0" role="button" class="btn btn-info" id="asciichartbutton" data-toggle="popover" title="Charts Translate" data-bs-trigger="hover focus" html="true"><img class="visibilitymatters" src="images\ascii.png"> </a>  </p>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <i class="material-icons custom">stars</i> How is text represented in a computer?
-                                <br>
-                                <i class="material-icons custom">stars</i> What is the ASCII table?<br>
-                                <i class="material-icons custom">stars</i> How can I convert text to binary representation?
-                                <br>
-                                <i class="material-icons custom">stars</i> How are images represented on a computer?
-                                <br>
-                                <i class="material-icons custom">stars</i> What is metadata?<br>
-                                <i class="material-icons custom">stars</i> What is sampling?<br>
-                                <i class="material-icons custom">stars</i> How many bits does a number need?<br>
-                                <i class="material-icons custom">stars</i> What is overflow?<br>
-                            </td>
-                            <td>
-
-                                <p>Images are encoded using
-                                    <ol>
-                                        <li>meta-data, which is data about data - like for width and height</li>
-                                        <li>pixels, encoded as bits</li>
-                                    </ol>
-                                </p>
-                                <p>In a black and white image, 1 might represent white, 0 might represent black, as in the image below.</p>
-                                <p><img src=".\images\pixelsbw.png" class="imageannotate"></p>
-                                </p><br>
-                                <p>Color images take more bits, but are represented digitally using a color model. There are several color models that are used to represent colors digitally. The RGB (Red-Green-Blue) color model uses values that represent
-                                    levels of red, levels of green and levels of blue. The more bits represent these values the more colors. If only 3 bits are available to represent colors, 1 for red, 1 for green and 1 for blue, then 8 colors are possible.
-                                    If 8 bits are available per color, then we can have 2<sup>8</sup> hues of red, 2<sup>8</sup> hues of green and 2<sup>8</sup> hues of blue - a total of 2
-                                    <sup>24</sup> different colors. </p>
-                                <p><img class="imageannotateplus" src="images\pixelscolour.png"></p>
-
-                                <p>Things in the real world are not digital, they are not represented as pixels in a coordinate grid, like digital images are. Things we see are described as analog. However, real life images need to be encoded digitally.
-                                    Sampling is the process of splitting up the real-life image into tiny and tinier squares so these squares can be represented as pixels - like imposing a grid over a painting and figiring out what colors fit in each
-                                    square. Sampling is doing the ground work with the real image, so that digitizing the coordinate values with the most applicable colors looks true to life. Decreasing the size of the sampling square(the pixel) and increasing
-                                    the number of samples(the squares) typically leads to a better quality image.
-                                </p>
-
-                                <!--  content of popover  -->
-                                <div id="asciichart" style="display: none">
-                                    <div>
-                                        <img src=".\images\asciitable.png" class="visibilityreallymatters">
-                                    </div>
-                                </div>
-
-                                <!-- end content of popover -->
-
-
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="modal-footer ">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <p>Click outside the box to close</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
- 
-
-<!-- Compressing Data -->
-   <!-- Modal 3 DATA COMPRESSION -->
-   <div class="modal" id="datacompression" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="dataLabel">Data Compression</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-
-            </div>
-            <div class="modal-body">
-
-                <table class="tablequestion question-table">
-                    <tr>
-                        <td><span class="quote">Conceptual art might be, for better or worse, the art most susceptible to lossy compression
-                                 – Brian Christian</span><br><br>
-                        </td>
-                        <td><i class="material-icons custom">question_answer</i>
-                            <p>Data is encoded digitally as pulses of electricity, which we represent as binary 1s and 0s. Data can take up a lot of space.
-                                <a tabindex="0"  role="button" class="btn btn-info" id="spacebutton" data-toggle="popover" title="Digital units of measurement" data-bs-trigger="hover focus" html="true">What's space?</a>.</p>
-
-                            <p>
-                                Data compression is a general term for technology that encodes data in order to shrink that data. The data is stored in files. Smaller files take up less room, leaving more storage real-estate. Also, smaller files are faster to transfer over a network,
-                                whether that network is the Internet, an intranet, or a local area network (LAN).
-                            </p>
-
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <br><br>
-                            <i class="material-icons custom">stars</i> What is data compression?<br>
-                            <i class="material-icons custom">stars</i> Why is data compression necessary?<br>
-                            <i class="material-icons custom">stars</i> What file extensions show data compression?
-                            <br>
-                            <i class="material-icons custom">stars</i> Can compressed data be restored?<br>
-                            <i class="material-icons custom">stars</i> What is lossy compression?<br>
-
-
-                        </td>
-                        <td>
-                            <p>A 3 minute song takes up about 30 Megabytes of storage, mega is million, so 30 million bytes, and a byte is 8 bits, so 240 million bits.</p>
-                            <p>A 1 hour long high definition video takes around 800 Gigabytes</p>
-                            <table>
-                                <tr>
-                                    <td>3 minute song</td>
-                                    <td>30 MB (Megabytes)</td>
-                                    <td>30,000,000 bytes</td>
-                                    <td>240,000,000 bits</td>
-                                    <td>compressed to about 3 MB</td>
-                                </tr>
-                                <tr>
-                                    <td>1 hour high definition video</td>
-                                    <td>800 GB (Gigabytes)</td>
-                                    <td>800,000,000,000 bytes</td>
-                                    <td>6,400,000,000 bits</td>
-                                    <td>compressed to about 1 GB</td>
-                                </tr>
-                            </table>
-                            <br>
-
-                            <p>Sometimes compression is lossy, which means that to save space some information is thrown away and the data cannot be restored to it's original form.
-                            </p>
-                            <p>When data is compressed without losing any details, this is lossless compression. The data can be decompressed into the exact original.</p>
-                        </td>
-                    </tr>
-                </table>
-
-
-
-            </div>
-            <div class="modal-footer ">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <p>Click outside the box to close</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Map building blocks to career -->
-
-    <!-- BUILDING BLOCKS -->
-    <div class="modal" id="useincareer" tabindex=-1 aria-labelledby="buildingLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="buildingModalLabel1">Building Blocks</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <table class="tablequestion question-table">
-                        <tbody>
-                               <tr>
-                                <td class="infocell" colspan="2">Numbers Are Everywhere in Computing Jobs</td>
-                            </tr>
-                            <tr>
-                            <td>
-                                <span class="quote">On two occasions I have been asked, ‘If you put into the machine wrong figures, will the right answers come out?’  I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.
-                                   </span>
-                                   Charles Babbage
-                            </td>
-                            <td>
-                                <i class="material-icons custom">question_answer</i>
-                                <p>
-                                    As you progress through your academics, you will need to compare measurements of speed and storage, and map from 1 number system to another. Think about choosing a computer from a selection of models with varying sized disks and installed memory, comparing processors.
-                                </p>
-                                <p>Computer technicians and security analysts need to interpret codes and signals, and to change numbers from one base into another. Network engineers interpret system traces, looking for pattern of 1s and 0s that represents an error code in Hexadecimal. Mask patterns efficiently identify sub-network addresses and route data faster. Digital artists and web designers use colour models (like RGB) to specify colours using numeric values.</p>
-                               
-                    
-                            </td>
-                            </tr>
-                       
-                        </tbody>
-                    </table>
-
+                    <a tabindex="0"  role="button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</a>
                 </div>
 
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
             </div>
         </div>
     </div>
@@ -1273,90 +1033,463 @@
     <script src="js/script.js"></script>
 
     <!---- Links and popups -->
-    <script>
-        $(document).ready(function() {
-            $('#spacebutton').popover({
-                html: true, trigger: 'focus',
-                content: function() {
-                    return $('#spaceinfo').html();
-                }
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $('#asciichartbutton').popover({
-                html: true, trigger: 'focus',
-                content: function() {
-                    return $('#asciichart').html();
-                }
-            });
-        });
-    </script>
-
-    <!-- CONTENT BLOCKS --------------------------------------------------------------------------------------------------------->
-    <!--------------------------------------------------------------------------------------------------------------------------->
-      <!--  content of popover  -->
-      <div id="asciichart" style="display: none">
+    <div id="zwavecontent" style="display: none">
         <div>
-            <img src=".\images\asciitable.png" class="visibilityreallymatters">
+
+            <p>
+                Z-Wave is a wireless protocol harnessing low-energy radio waves to help smart devices or appliances
+                communicate successfully with one another.
+            </p>
+
+
         </div>
     </div>
-
-    <!-- end content of popover -->
-      <!--  content of popovers  -->
-
-      <div id="spaceinfo" style="display: none">
+    <!------------------------------------------------------------>
+    <div id="zigbeecontent" style="display: none">
         <div>
 
-            <table>
-                <tr>
-                    <th>Measure</th>
-                    <th>Space</th>
-                </tr>
-                <tr>
-                    <td>
-                        bit
-                    </td>
-                    <td>Smallest unit of information</td>
-                </tr>
-                <tr>
-                    <td>byte</td>
-                    <td>8 bits</td>
-                </tr>
-                <tr>
-                    <td>nybble</td>
-                    <td>4 bits</td>
-                </tr>
-                <tr>
-                    <td>Kilobit, Kb</td>
-                    <td>1024 bits (approx 1000), 2<sup>10</sup> bits</td>
-                </tr>
-                <tr>
-                    <td>Kilobyte, KB</td>
-                    <td>1024 bytes (approx 1000), 2<sup>10</sup> bytes</td>
-                </tr>
-                <tr>
-                    <td>Megabyte, MB</td>
-                    <td>1,048,576 bytes (approx 1,000,000), 2<sup>20</sup></td>
-                </tr>
-                <tr>
-                    <td>Gigabyte, GB</td>
-                    <td>1,048,576 bytes (approx 1,000,000,000), 2<sup>30</sup></td>
-                </tr>
-            </table>
-            <hr>
+            <p>
+                Zigbee is based on the IEEE's 802.15.4 personal-area network standard.
+                Zigbee is an
+                alternative to Wi-Fi and Bluetooth for some applications including low-powered devices that don't
+                require a lot of bandwidth - like your smart home sensors and devices connected to the IoT.
+            </p>
 
-            <p>You can convert bits to bytes by dividing by 8.</p>
-            <p>You can convert bytes to bits by multiplying by 8.</p>
-            <p>You can convert MB to GB by dividing by 2<sup>10</sup>. Can you figure out how to do more conversions? You may need to divide or multiply by powers of 2, or you can use the closest approximation, like 2<sup>10</sup> is approx
-                1,000.
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="bluetoothsmartcontent" style="display: none">
+        <div>
+
+            <p>
+                Bluetooth 4.0 is designed to be more intelligent (hence: Bluetooth Smart) about managing those
+                connections, especially when it comes to conserving energy. The new generation of Bluetooth tech places
+                less emphasis on maintaining a constant stream of information. Instead, it focuses on sending smaller
+                bits of data when needed and then puts the connection to sleep during periods of non-use.
+
+                When two 4.0 devices are paired, they waste less battery power because the connection is dormant unless
+                critical data is being shared.
+            </p>
+
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="pskcontent" style="display: none">
+        <div>
+
+            <p>
+                Pre-shared key (PSK), a shared secret method, can be added to either WPA or WPA2.
+            </p>
+
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="wpa2content" style="display: none">
+        <div>
+
+            <p>
+                WPA2 has stronger security and is easier to configure then WPA. The main difference with
+                WPA2 is that it uses the Advanced Encryption Standard (AES) instead of TKIP. AES is more robust,
+                so it’s a good option for keeping a personal device or company WiFi
+                safe.
+            </p>
+
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+
+    <div id="wpacontent" style="display: none">
+        <div>
+
+            <p>
+                WPA is a security protocol designed to create secure wireless (Wi-Fi) networks. It is similar to the WEP
+                protocol, but offers improvements in the way it handles security keys and the way users are authorized.
+
+                For an encrypted data transfer to work, both systems on the beginning and end of a data transfer must
+                use the same encryption/decryption key. While WEP provides each authorized system with the same key, WPA
+                uses the temporal key integrity protocol (TKIP), which dynamically changes the key that the systems use.
+                This prevents intruders from creating their own encryption key to match the one used by the secure
+                network.
+            </p>
+
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="wepcontent" style="display: none">
+        <div>
+
+            <p>
+                Wired Equivalent Privacy (WEP) is a security protocol, specified in the IEEE Wireless Fidelity (Wi-Fi)
+                standard, 802.11b, that is designed to provide a wireless local area network (WLAN) with a level of
+                security and privacy comparable to what is usually expected of a wired LAN.
+            </p>
+
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="wificontent" style="display: none">
+        <div>
+
+            <p>
+                IEEE (Institute of Electrical and Electronics Engineers) is a professional organizations that develops
+                standards in engineering
+                technology.
+            </p>
+            <p>Wi-Fi is a wireless network technology defined by IEEE 802.11
+                standards.</p>
+            <p>
+                A Wi-Fi device transmits data as radio waves, using either a mesh topology (devices broadcast directly
+                to each other)
+                or a star topology (using a wireless access point).
+            </p>
+            <p>Wi-Fi signals can reach up to 300 feet, but obstacles like a thick steel or cement wall will cause
+                problems.</p>
+            <p>Different speeds depend on the classification of Wi-Fi.</p>
+            <ul>
+                <li>802.11n,operates at up tp 600 Mbps</li>
+                <li>802.11ac, runs 7+ Gbps</li>
+
+            </ul>
+            <p>Some Wi-Fi speeds are faster then 10BaseT Ethernet.
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="ethernetcontent" style="display: none">
+        <div>
+
+            <p>
+                IEEE (Institute of Electrical and Electronics Engineers) is a professional organizations that develops
+                standards in engineering
+                technology.
+            </p>
+            <p>Ethernet technology is a wired network technology defined by IEEE 802.3 standards.</p>
+            <p>
+                Standards for ethernet cabling define the speed of data transmission.
+            <ul>
+                <li>10BaseT Ethernet, 802.3i,operates at 10 Mbps</li>
+                <li>Fast Ethernet, IEEE 802.3u, runs at 100 Mbps</li>
+                <li>Gigabit Ethernet, IEEE 802.3z can reach speeds of 1,000 Mbps</li>
+                <li>10 Gigabit Ethernet, IEEE 802.3ae transfers data at a rate of 10,000 Mbps</li>
+                <li>40/100 Gigabit Ethernet, IEEE 802.3ba, 40 to 100 Gbps</li>
+            </ul>
+            </p>
+            Your device should have an ethernet port, for connecting ethernet cabling. If not, an adpater can be used.
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="maccontent" style="display: none">
+        <div>
+
+            <p>A MAC (Media Access Control) address, identifies devices
+                attached to a LAN. MAC addresses are assigned by the
+                manufacturer.</p>
+            <p>A MAC address, Wi-Fi address or physical address,
+                works with an IP address on a LAN. DHCP assigns an IP address to a device and links that to the devices
+                MAC address.</p>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="niccontent" style="display: none">
+        <div>
+
+            <p>NICs, Network Access Controllers, are built into the curcuitry of computers, routers and most other
+                digital devices. They are also available as an add-on, like a USB device.
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="lancontent" style="display: none">
+        <div>
+
+            <p>Local Area Networks, LANs, connect computers typically within a home or office.
+
+            </p>
+            <p>LANs include DCEs like modems and/or routers, and cabling or wireless capacity, or both.</p>
+            <p>Microsoft Windows OS includes a tool for setting up a LAN called a HomeGroup, at home or in a small
+                business. </p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="wifihotspotcontent" style="display: none">
+        <div>
+
+            <p>A Wi-Fi Hotspot is a network with a wireless access point, typically operated by a small business, like a
+                restaurant. Signals are broadcast to about 150 feet.
+
+            </p>
+            <p>At the back end, data may be transmitted through DSL or fiber optics.</p>
+            <p>Speeds can vary, and depend on the number of people using the hotspot.</p>
+            <p>Wi-Fi Hotspots are not secure, data is transmitted without being encrypted - be careful when using these
+                hotspots to connect to the internet.</p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="mobilebroadbandcontent" style="display: none">
+        <div>
+
+            <p>Mobile Broadband is continually evolving, the most recent is 5G and Snapdragon-5G. It provides essential
+                service to thise without lad lines, or other devices.
+
+            </p>
+            <p>Mobile Broadband connects to a mobile network and sends data through 3G+ services.</p>
+            <p>
+                Mobile broadband can come in the form of
+            <ul>
+                <li>a dongle attachment that plugs into a USB port and connects
+                    the device to the internet</li>
+                <li>A personal Wi-Fi device or portable hotspot</li>
+                <li>In-car Wi-Fi</li>
+                <li>Data only SIM (Subscriber Identity Module) cards</li>
+            </ul>
+
+            </p>
+
+            <p>Speeds vary, upload speeds may reach 5 Mbps and download speeds. 12 Mbps.</p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="satellitecontent" style="display: none">
+        <div>
+
+            <p>Satellite Internet Service broadcasts data to a satellite in space, which is then broadcast again to a
+                land-based ISP.
+            </p>
+            <p>
+            <ul>
+                <li>the customer's modem get the data from a computer, and converts to signals </li>
+                <li>the signals are comveyed to the customer's satellite dish</li>
+                <li>from the customer satellite dish, the signals are broadcast to a communications
+                    satellite</li>
+                <li>Signals are broadcast from the satellite to a land based ISP</li>
+                <li>the ISP delivers the data to the customer</li>
+            </ul>
+            </p>
+            Latency is an issue with Satellite Internet.
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="ftthcontent" style="display: none">
+        <div>
+
+            <p>Fiber To Your Home, FTTH, runs on Fiber Optic cabling and is only available in certain areas built to
+                integrate with fiber optic cabling.
+                Fiber optic cabling is high capacity and can support higher transmission speeds, in excess of 1,000
+                Mbps.
+            </p>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="dslcontent" style="display: none">
+        <div>
+
+            <p>Digital Subscriber Line internet access technology operates at high speeds. A DSL modem converts signals
+                to high frequency data signals. Voice and data signals are transferred over telephone lines, and then
+                switched to either regular telephone lines, or the internet.
+            </p>
+            <p>Speeds vary from 768 Kbps to higher than 5 Mbps.</p>
+            <p>
+                There are variations,
+            <ul>
+                <li>ADSL (Asymmetric DSL) has faster download than upload speeds.</li>
+                <li>SDSL (Symmetric DSL) has the same upload and download speeds</li>
+                <li>HDSL (High Bt Rate DSL) supports faster speeds</li>
+                <li>VDSL ( Very High Bit Rate DSL) offers the highest speeds</li>
+            </ul>
             </p>
         </div>
     </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="isdncontent" style="display: none">
+        <div>
 
+            <p>Integrated Services Digital Network technology splits the phone line into a channel for voice and a
+                channel for data. The data channel uses packet switching. Data rates are typically around 128Kbps.
+            </p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="catvcontent" style="display: none">
+        <div>
 
+            <p>CATV originally stood for Community Antenna TV. A satellite dish would catch TV signals and relay these
+                signals over a system of cables, to subscriber homes.
+            </p>
+            <p>The topology of the relay infrastructure suits a digital network, for internet data.</p>
+            <p>Now, when a company offers cable TV service and also internet service, a home network becomes part of a
+                neighborhood network linked by the company digital media,
+                land lines and wireless.
+            </p>
+            <p>The bandwidth is divided to accomodate uploads, downloads and TV signals.
+                <img class="popupimg" src="images\catv.png" />
+            </p>
+            <p></p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="ipv6content" style="display: none">
+        <div>
 
+            <p>IP Version 6, IPV6, is an IP addressing schmeme that allows for 128 bits.
+            </p>
+            <p>Given 128 bits to represet the address, this allows for 2<sup>128</sup> IP addresses,
+                approximately 340
+                undecillion.</p>
+            <p>IPV6 represents addresses as 8 groups of 4 hexadecimal digits, like this<br>
+                AB09:DCAB:0A0F:FFCD:BAB1:ABCD:0987:9AC2
+            </p>
+            <p>We are still in transition to IP Version 6, IPV6.
+            </p>
+            <p></p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="ipv4content" style="display: none">
+        <div>
+
+            <p>IP Version 4, IPV4, is an IP addressing schmeme that allows for 32 bits.
+            </p>
+            <p>Given 32 bits to represet the address, this allows for 2<sup>32</sup> IP addresses,
+                approximately 4
+                billion.</p>
+            <p>IPV4 represents addresses in dotted decimal notation, 4 sets of up to 3 decimal digits, separated by a
+                dot.
+                <br>
+                123.45.78.99
+            </p>
+            <p>We ran out of IPV4 addressed many years ago, although we are still in transition to IP Version 6, IPV6.
+            </p>
+            <p></p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+
+    <div id="udpcontent" style="display: none">
+        <div>
+
+            <p>UDP (User Datagram Protocol) is an alternative to TCP.
+                UDP also is responsible for 'chunking' data into packets and
+                sending the
+                packets out on the lines of the internet.
+                UDP is faster than TCP, but UDP does not support any error checking!.
+            </p>
+
+            <p></p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <div id="tcpcontent" style="display: none">
+        <div>
+
+            <p>TCP (Transmission Control Protocol) is responsible for 'chunking' data into packets and sending the
+                packets out on the lines of the internet.
+                If all the packets are received, they are assembled in order. Otherwise, TCP requests a retransmission
+                of any lost or corrupted packets in a process of error checking.
+            </p>
+
+            <p></p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="tcpcontent" style="display: none">
+        <div>
+
+            <p>A protocol called TCP is responsible for splitting data up into chunks called packets.
+
+                TCP send packets to the destination, perhaps using different routes. The
+                packets are reassembled at the destination, using a sequence number to keep them in the correct order.
+            </p>
+            <p>The packets belonging to the original data may travel along different routes to get to the destination.
+                When they arrive at the destination, they are reassembled in sequence with the sequence number.</p>
+            <p>The older alternative to packet switching is circuit switching - this involves a dedicated line. Think of
+                the old telephone network.</p>
+
+            <p></p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="packetcontent" style="display: none">
+        <div>
+
+            <p>Each packet contains
+            <ul>
+                <li>the address of the sender</li>
+                <li>the destination address</li>
+                <li>a sequence number</li>
+                <li>data</li>
+            </ul>
+            </p>
+            <p>The packets belonging to the original data may travel along different routes to get to the destination.
+                When they arrive at the destination, they are reassembled in sequence with the sequence number.</p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="startopologycontent" style="display: none">
+        <div>
+            <img src="images\startopology.png" />
+            <p>Connects multiple nodes to a central node</p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="startopologycontent" style="display: none">
+        <div>
+            <img src="images\startopology.png" />
+            <p>Connects multiple nodes to a central node</p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="meshtopologycontent" style="display: none">
+        <div>
+            <img src="images\meshtopology.png" />
+            <p>Connects multiple nodes to each other, as a full mesh network or as a partial mesh network</p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="bustopologycontent" style="display: none">
+        <div>
+            <img src="images\bustopology.png" />
+            <p>Connects nodes in a linear sequence</p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="point2pointtopologycontent" style="display: none">
+        <div>
+            <img src="images\point2pointtopology.png" />
+            <p>Connects one node to another</p>
+            <p>MacOS includes a tool called AirDrop for making a point to point connection between two devices running
+                MacOS.</p>
+        </div>
+    </div>
+    <!------------------------------------------------------------>
+    <!------------------------------------------------------------>
+    <div id="packetswitchingcontent" style="display: none">
+        <div>
+
+            <p>
+                Packet switching technology breaks a larger chunk of data into smaller units called packets.
+                These packets are given a sequence number, and labeled with the sender address and the target address
+                before being sent out on the lines of the internet.
+            </p>
+        </div>
+    </div>
     <!------------------------------------------------------------>
     <!----------------------------------------------------------------------------->
     <script>
@@ -1369,7 +1502,7 @@
     <script>
         $(document).ready(function () {
             $('#hexchartbutton').popover({
-                html: true, trigger: 'focus',
+                html:true, trigger:'focus',
                 content: function () {
                     return $('#hexchart').html();
                 }
@@ -1381,7 +1514,7 @@
     <script>
         $(document).ready(function () {
             $('#binnumbutton').popover({
-                html: true, trigger: 'focus',
+                html:true, trigger:'focus',
                 content: function () {
                     return $('#binnum').html();
                 }
@@ -1390,6 +1523,338 @@
     </script>
 
 
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#zwavepopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#zwavecontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#zigbeepopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#zigbeecontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#bluetoothsmartpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#bluetoothsmartcontent').html();
+                }
+            });
+        });
+    </script>
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#weppopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#wepcontent').html();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#wpapopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#wpacontent').html();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#wpa2popup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#wpa2content').html();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#pskpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#pskcontent').html();
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#wifipopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#wificontent').html();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#ethernetpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#ethernetcontent').html();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#nicpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#niccontent').html();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#macpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#maccontent').html();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#lanpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#lancontent').html();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#wifihotspotpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#wifihotspotcontent').html();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#mobilebroadbandpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#mobilebroadbandcontent').html();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#satellitepopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#satellitecontent').html();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#ftthpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#ftthcontent').html();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#isdnpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#isdncontent').html();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#dslpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#dslcontent').html();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#catvpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#catvcontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#ipv6popup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#ipv6content').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#ipv4popup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#ipv4content').html();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#udppopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#udpcontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#tcppopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#tcpcontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#packetswitchingpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#packetswitchingcontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#packetpopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#packetcontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#startopologypopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#startopologycontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#meshtopologypopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#meshtopologycontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#bustopologypopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#bustopologycontent').html();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#point2pointtopologypopup').popover({
+                html:true, trigger:'focus',
+                content: function () {
+                    return $('#point2pointtopologycontent').html();
+                }
+            });
+        });
+    </script>
 
 </body>
 
